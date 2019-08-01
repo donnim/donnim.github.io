@@ -6,12 +6,12 @@
 
 	<!-- META DATA -->
 	<meta http-equiv="Content-Security-Policy" content="
-		default-src 'self';
+		default-src 'none';
 		font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com;
 		img-src 'self';
 		object-src 'none';
-		script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com ;
-		style-src 'self' 'unsafe-inline' https://use.fontawesome.com https://fonts.googleapis.com;
+		script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com ;
+		style-src 'self' https://use.fontawesome.com https://fonts.googleapis.com;
 		base-uri 'none';
 		form-action 'none';">
 	<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
@@ -24,13 +24,7 @@
 	<meta property="og:description" content="I am a UI/UX Designer and Developer from Tasikmalaya, Indonesia." />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144646540-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-144646540-1');
-</script>
+<script src="./gtag"></script>
 	<!-- CSS -->
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/css/animate.css">
