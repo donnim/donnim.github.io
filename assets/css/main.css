@@ -807,6 +807,10 @@ font: inherit;
 vertical-align: baseline;
 }
 
+.cd-nav-trigger {
+  display: none
+}
+
 a {
   text-decoration: none
 }
@@ -1032,7 +1036,6 @@ a {
 }
 
 .cd-img-replace {
-  display: inline-block;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap
