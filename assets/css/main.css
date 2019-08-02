@@ -779,14 +779,6 @@ textarea {
 
 /* navbar */
 
-uls {
-  list-style: none;
-}
-
-li {
-  padding: 10px 2px;
-}
-
 .cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -800,7 +792,12 @@ li {
   z-index: 1
 }
 
+.cd-vertical-nav ul {
+  list-style: none
+}
+
 .cd-vertical-nav li {
+  padding: 10px 2px;
   text-align: right
 }
 
